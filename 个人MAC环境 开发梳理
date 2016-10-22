@@ -10,6 +10,17 @@ thief-MBP:~ thief$ ruby -v
 ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
 thief-MBP:~ thief$ python -V
 Python 2.7.10
+
+
+使用nodejs 提供的安装器安装 也不是源码编译安装 二进制目录 /usr/local/bin
+-rwxrwxr-x    1 root       wheel  23517552 10 18 23:35 node
+lrwxr-xr-x    1 web_admin  staff        38 10 22 11:06 npm -> ../lib/node_modules/npm/bin/npm-cli.js
+安装目录 /usr/local/lib/node_modules       npm node均在该目录下
+nodejs使用的模块库均在该目录
+thief-MBP:node_modules thief$ pwd
+/usr/local/lib/node_modules/npm/node_modules
+
+//nodejs
 thief-MBP:~ thief$ node -v
 v4.6.1
 thief-MBP:~ thief$ npm -v
@@ -62,7 +73,7 @@ export PATH
 /////////////本机非系统默认安装的Java Python Perl Ruby 安装目录检查
 
 
-
+使用jdk jre 安装器安装 也不是源码编译安装 或者 直接编译好的二进制包
 //Java
 thief-MBP:Python thief$ cd /Library/
 thief-MBP:Library thief$ cd Java/
@@ -126,7 +137,7 @@ drwxr-xr-x  6 root  wheel  204  7 31 07:26 darwin-thread-multi-2level
 thief-MBP:5.18 thief$ 
 
 
-
+使用  安装器 （不是源码编译安装）
 //Python3
 thief-MBP:5.18 thief$ python3 -V
 Python 3.5.2
