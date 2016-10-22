@@ -58,3 +58,69 @@ PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME
 export CLASS_PATH
 export PATH
+
+/////////////本机非系统默认安装的Java Python Perl Ruby 安装目录检查
+
+
+
+//Java
+thief-MBP:Python thief$ cd /Library/
+thief-MBP:Library thief$ cd Java/
+thief-MBP:Java thief$ ls -la
+total 16
+drwxrwxr-x   5 root   wheel   170  9 22 18:52 .
+drwxr-xr-x+ 63 root   wheel  2142  9 22 18:52 ..
+-rw-r--r--@  1 thief  wheel  6148  6 12 21:07 .DS_Store
+drwxrwxr-x   2 root   wheel    68  9 22 18:50 Extensions
+drwxr-xr-x   4 root   wheel   136  9 22 18:52 JavaVirtualMachines
+thief-MBP:Java thief$ cd JavaVirtualMachines/
+thief-MBP:JavaVirtualMachines thief$ ls -la
+total 0
+drwxr-xr-x  4 root  wheel  136  9 22 18:52 .
+drwxrwxr-x  5 root  wheel  170  9 22 18:52 ..
+drwxr-xr-x  3 root  wheel  102  6 12 23:20 jdk1.8.0.jdk
+drwxr-xr-x  3 root  wheel  102  7  9 13:10 jdk1.8.0_91.jdk
+thief-MBP:JavaVirtualMachines thief$ pwd
+/Library/Java/JavaVirtualMachines
+thief-MBP:JavaVirtualMachines thief$ cd /Library/
+
+
+//Python
+thief-MBP:Python thief$ cd /Library/
+thief-MBP:Library thief$ cd Python/
+thief-MBP:Python thief$ ls -la
+total 0
+drwxr-xr-x   5 root  wheel   170  9 22 18:52 .
+drwxr-xr-x+ 63 root  wheel  2142  9 22 18:52 ..
+drwxr-xr-x   3 root  wheel   102 10 17  2014 2.5
+drwxr-xr-x   3 root  wheel   102  8  2 12:49 2.6
+drwxr-xr-x   3 root  wheel   102  7 31 08:44 2.7
+
+
+//Ruby
+thief-MBP:Python thief$ cd /Library/
+thief-MBP:Library thief$ cd Ruby/
+thief-MBP:Ruby thief$ ls -la
+total 0
+drwxr-xr-x   4 root  wheel   136  9 14 08:53 .
+drwxr-xr-x+ 63 root  wheel  2142  9 22 18:52 ..
+drwxr-xr-x   3 root  wheel   102  7 31 06:04 Gems
+drwxr-xr-x   3 root  wheel   102  9 14 08:53 Site
+
+
+//Perl
+thief-MBP:Library thief$ cd Perl/
+thief-MBP:Perl thief$ ls -la
+total 0
+drwxr-xr-x   4 root  wheel   136  7 31 04:51 .
+drwxr-xr-x+ 63 root  wheel  2142  9 22 18:52 ..
+drwxr-xr-x   3 root  wheel   102  9 14 08:52 5.16
+drwxr-xr-x   4 root  wheel   136  9 14 08:52 5.18
+thief-MBP:Perl thief$ cd 5.18
+thief-MBP:5.18 thief$ ls -la
+total 0
+drwxr-xr-x  4 root  wheel  136  9 14 08:52 .
+drwxr-xr-x  4 root  wheel  136  7 31 04:51 ..
+-rw-r--r--  1 root  wheel   33  7 31 06:10 AppendToPath
+drwxr-xr-x  6 root  wheel  204  7 31 07:26 darwin-thread-multi-2level
+thief-MBP:5.18 thief$ 
