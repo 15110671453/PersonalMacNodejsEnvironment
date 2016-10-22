@@ -124,3 +124,12 @@ drwxr-xr-x  4 root  wheel  136  7 31 04:51 ..
 -rw-r--r--  1 root  wheel   33  7 31 06:10 AppendToPath
 drwxr-xr-x  6 root  wheel  204  7 31 07:26 darwin-thread-multi-2level
 thief-MBP:5.18 thief$ 
+
+
+
+//Python3
+thief-MBP:5.18 thief$ python3 -V
+Python 3.5.2
+thief-MBP:5.18 thief$ which python3
+/usr/local/bin/python3
+thief-MBP:5.18 thief$ 
