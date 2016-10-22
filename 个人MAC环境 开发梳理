@@ -136,4 +136,6 @@ thief-MBP:5.18 thief$
 
 由于安装的是系统级的框架，且二进制文件被安装至 /usr/local/bin/ 之中，安装程序将会向您询问管理员口令。没有管理员权限是无法安装 Mac Python 的。
 
-还有python3竟然像应用程序一样 源文件安装到了 /Applications目录
+还有python3竟然像应用程序一样 源文件安装到了 /Applications目录 
+python3 安装的目录找到了
+/Library/Frameworks/Python.framework/Versions/3.5/bin
